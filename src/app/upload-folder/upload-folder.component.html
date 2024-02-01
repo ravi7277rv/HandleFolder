@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="row">
+        <div class="rowOne">
+            <div class="labelInput">
+                <label for="folderInput">Upload Folder</label>
+                <input id="folderInput" type="file" webkitdirectory (change)="handleSelectFolder($event)" multiple hidden>
+            </div>
+            <div class="exportButton">
+                <button (click)="exportToExcel()">Export To Excel <img src="../../assets/images/pngegg.png" alt="excel.png"></button>
+                
+            </div>
+        </div>
+        <div class="rowTwo" id="exportTableData">
+            <table>
+                <thead>
+                    <tr>
+                        <th>FileName</th>
+                        <th>FileSize</th>
+                        <th>FileExtension</th>
+                        <th>FileLastModified</th>
+                        <th>FilePath</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let file of UploadedFiles">
+                        <td>{{file.name}}</td>
+                        <td>{{file.size}}</td>
+                        <td>{{file.extension}}</td>
+                        <td>{{file.lastModified}}</td>
+                        <td>{{file.filePath}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
