@@ -84,7 +84,7 @@
         }
         .rowTwo{
             width: 100%;
-            min-height: 300px;
+            min-height: 200px;
             background: silver;
             margin: 25px 0 0 0;
             border-bottom-left-radius: 10px;
@@ -104,9 +104,15 @@
                     background: darkkhaki;
                     text-align: center;
 
+
+                    tr>td{
+                        padding: 2px 4px;
+                    }
+
                     tr>td:hover{
                         font-weight: bold;
                         transition: 3s ease;
+                        cursor:context-menu;
                     }
                 }
             }
