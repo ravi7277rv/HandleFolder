@@ -1,0 +1,11 @@
+	
+SIDD-14046
+Mobile UAT | GIS > Job Exchange > Filter > First sector selection is not gets removes if user change the Location
+Bug	
+SIDD-13443
+Mobile UAT | GIS > Intent based search > Apprenticeships/Jobs > Numeric and special characters are allowed in search bar
+SIDD-13514
+Mobile UAT | GIS > Jobs > Sector filter > Sector selection is not getting removed from the backend if user update the filter selection
+Story	
+SIDD-13715
+GIS | Enhancement of Intent-Based Search results with Toggle switch option (Mob)

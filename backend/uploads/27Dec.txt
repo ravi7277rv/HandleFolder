@@ -1,0 +1,14 @@
+Bug	
+SIDD-14389
+GIS_ Skill Map lists are not in sync
+
+SIDD-14430
+UAT Mobile | GIS > Job Exchange > Sector filter > Job filter is not working properly with the Apprenticeship filter
+
+SIDD-14426
+UAT-PROD | GIS > Jobs/Apprenticeships > Icons are not getting removed even after deselecting it from job exchange dropdown.
+
+Add--
+
+Update intent base search for pen india 
+Update sector in filter
